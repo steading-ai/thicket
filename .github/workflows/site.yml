@@ -32,7 +32,7 @@ jobs:
       - uses: actions/checkout@v7.0.1
         with:
           persist-credentials: false
-      - uses: steading-ai/stead.ing@f20832bb1f9a122150d9cc6c8da072d325b532b9
+      - uses: steading-ai/stead.ing@76ad51fec7423ddd12bc2d7ada93e80b579c2727
         with:
           deploy: "false"
 
@@ -52,4 +52,4 @@ jobs:
         with:
           persist-credentials: false
       - id: site
-        uses: steading-ai/stead.ing@f20832bb1f9a122150d9cc6c8da072d325b532b9
+        uses: steading-ai/stead.ing@76ad51fec7423ddd12bc2d7ada93e80b579c2727
