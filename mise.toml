@@ -1,6 +1,6 @@
 [tools]
 bun = "1.4.4"
-go = "1.27.3"
+go = "1.27.4"
 pnpm = "11.28.11"
 
 # The workflow linter. jactionlint shells out to shellcheck for every `run:`
