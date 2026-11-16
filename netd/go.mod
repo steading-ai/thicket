@@ -1,10 +1,10 @@
 module github.com/ivy/thicket/netd
 
-go 1.27.3
+go 1.27.4
 
 require (
 	golang.org/x/time v0.16.0
-	tailscale.com v1.104.6
+	tailscale.com v1.104.7
 )
 
 require (
